@@ -1,0 +1,74 @@
+/* Estrutura e container */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Fontes e titulos  */
+h1 {
+    color: brown;
+}
+h2 {
+    color: #353535;
+    font-size: 20px;
+}
+h3 {
+    color: #353535;
+    font-size: 13px;
+}
+.text {
+    text-align: center;
+}
+
+
+/* INPUTS E BOTOES */
+.input-archive {
+    margin-top: 10px;
+}
+input::file-selector-button {
+  font-weight: bold;
+  color: brown;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+
+.functions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.html, .pdf {
+    border: solid 1px #c2c2c2;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all 0.3s ease; 
+    margin: 10px;
+    cursor: pointer;
+}
+.html:hover, .pdf:hover {
+    background-color: #e6e6e6;
+}
+
+.fa {
+    font-size: 
+    80px;
+    font-weight: 100;
+}
+
+.logo {
+    margin: 5px 10px;
+    box-shadow: 1px  #353535;
+}
